@@ -1,15 +1,78 @@
+# Android Studio & IntelliJ
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.iws
+
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle-wrapper.jar
+
+# Local configuration
 local.properties
+*.keystore
+*.jks
+
+# Log files
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java/Compose specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Android generated
+.cxx/
+captures/
+output.json
+
+# Jetpack Compose compiler artifacts
+.kotlinc/
+compose.compiler.cache/
+compose.compiler.metrics/
+compose-compiler/
+
+# Testing
+test-results/
+coverage/
+
+# Virtual devices
+*.avd/
+*.avd/**
+
+# Emulator
+*.lock
+*.idx
+
+# Android Studio Navigation Editor temp files
+navigation.json
+
+# Misc
+*.orig
+
+# Node or npm (if using for tooling)
+node_modules/
+npm-debug.log*
+
+# VS Code (if using it)
+.vscode/
+
+# MacOS / Linux / Windows system files
+ehthumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*~.nib
+*.tmp
+*.swp
+*.swo
+
+# Gitignore for Wear OS specific - nothing special unless adding custom binaries
+
